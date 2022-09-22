@@ -53,5 +53,13 @@ nav {
 header {
     text-align: center;
     margin: 10px;
-    
+
 }
+
+
+@media (min-height: 620px) {
+    .main-doc {
+      font-size: var(--font-sm);
+      padding: 5rem 1rem;
+    }
+  }
